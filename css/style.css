@@ -56,3 +56,8 @@ body {
     background-color: white;
     color: #994d00;
 }
+
+.navbar-toggler {
+    background-color: #994d00;
+    border: none;
+}

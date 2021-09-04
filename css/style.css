@@ -52,6 +52,11 @@ body {
     color: white;
 }
 
+.main-footer .fab {
+    color: white !important;
+    margin-left: 15px;
+}
+
 .footer-copyright {
     background-color: white;
     color: #994d00;

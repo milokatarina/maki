@@ -1,0 +1,20 @@
+       Kitchen Roots
+	   
+	   Početna     Hrana     Prodavnica      Kontakt     O autor
+	   
+	   
+	   Prva strana header najobicniji, nakon toga veliki container sa naslovom i slikom u pozadini
+	   Ispod tog containera sa leve strane velika slika sa desne neki tekst u vezi Hell's Kitchen
+	   Ispod toga veliki container u redovima i kolonama, naslov Vrste hrane ili tako nesto i slicice sa nekim malim tekstom sa desne strane
+	   Ispod toga veliki container sa kontakt formom sa leve strane i mapa gde se nalazi prodavnica sa desne strane
+	   Footer sa socijanim mrezama rasporedjeno levo i desno i ime na samom dnu
+	   
+	   Strana Hrana veliki container sa naslovom i slikom u pozadini, nakon toga ispod container rasporedjen u redove i kolone sa slikama sa leve strane u tekstom sa desne u vezi samih proizvoda. 
+	   Ponavlja se kontakt forma, mapa i footer
+	   
+	   Strana Prodavnica veliki container sa naslovom i slikom u pozadini, ispod toga container sa redovima i kolonama sa sliciom proizvoda iznad i kolicinom za kupovinu ispod
+	   Ponavlja se kontakt forma, mapa, footer
+	   
+	   Kontakt referencira na dnu strane za informacije
+	   
+	   O autoru vodi ka svom portfoliu

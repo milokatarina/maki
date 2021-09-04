@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar>.container-fluid{
+    padding: 35px;
+}
+
+#cover-pic{
+    background-image: url(../img/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mm-transparent{
+    width: 100%;
+    height: inherit;
+}
+
+#introduction{
+    width: 70%;
+    color: whitesmoke;
+    margin: 10% !important;
+    text-align: center;
+}
+
+#introduction h1{
+    font-size: 80px;
+}
+
+.mm-pad-lr{
+    padding: 0px;
+}
+
+.mm-brand{
+    margin-left: 200px;
+}
+
+.mm-font{
+    font-size: 25px;
+}
+
+.mm-cont{
+    width: 80%;
+    height: 100px;
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.mm-pad{
+    padding-bottom: 50px;
+}
+
+#foodSlider{
+    height: 580px;
+}
+
+.red{
+    color: red;
+}
+
+#support{
+    padding-bottom: 30px;
+}
+
+.mm-btn{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color:rgb(253, 201, 29);
+    border: rgb(255, 255, 255);
+}
+
+.mm-color{
+    background-color: #272343;
+}

@@ -1,86 +1,58 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar>.container-fluid{
-    padding: 35px;
+body {
+    background-color: #fffae6;
+    color: #994d00;
 }
 
-#cover-pic{
-    background-image: url(../img/kitchen.jpg);
+.nav-link {
+    color: #994d00 !important;
+}
+
+.bg-custom-1 {
+    background-color: #85144b;
+}
+
+.bg-custom-2 {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+#hero-image {
+    background-image: url(https://sonjasillyworld.com/wp-content/themes/sillyworld/images/newsletter.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.mm-transparent{
-    width: 100%;
-    height: inherit;
+
+#introduction {
+    background: white;
+    padding: 20px;
 }
 
-#introduction{
-    width: 70%;
-    color: whitesmoke;
-    margin: 10% !important;
-    text-align: center;
+#introduction h1 {
+    font-size: 50px;
 }
 
-#introduction h1{
-    font-size: 80px;
-}
-
-.mm-pad-lr{
-    padding: 0px;
-}
-
-.mm-brand{
-    margin-left: 200px;
-}
-
-.mm-font{
-    font-size: 25px;
-}
-
-.mm-cont{
-    width: 80%;
-    height: 100px;
-}
-
-.carousel-item{
-    height: 450px;
-}
-
-.carousel-item img{
+.carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 300px;
 }
 
-.mm-pad{
-    padding-bottom: 50px;
-}
-
-#foodSlider{
-    height: 580px;
-}
-
-.red{
-    color: red;
-}
-
-#support{
-    padding-bottom: 30px;
-}
-
-.mm-btn{
+.popular-post-img {
     width: 100%;
-    padding: 10px;
-    font-weight: bold;
-    background-color:rgb(253, 201, 29);
-    border: rgb(255, 255, 255);
+    height: auto;
 }
 
-.mm-color{
-    background-color: #272343;
+.main-footer {
+    background-color: #994d00 !important;
+    color: white;
+}
+
+.footer-copyright {
+    background-color: white;
+    color: #994d00;
 }

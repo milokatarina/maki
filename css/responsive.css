@@ -1,4 +1,10 @@
 @media (max-width: 767px) {
+    .img-bottom-info{
+        transform: translate(-50%, -80%);
+    }
+    .author-section .description {
+        height: 400px;
+    }
     .contact-map button {
         width: 100%;
     }
@@ -59,8 +65,17 @@
     }
 }
 
+@media (min-width: 768px) {
+     .author-section .description {
+        height: 400px;
+    }
+    .author-img {
+        top: 25%;
+    }
+}
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
     .contact-map iframe {
         height: 500px;
     }
@@ -72,8 +87,4 @@
     #hero-image {
         height: 50vh;
     }
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
 }

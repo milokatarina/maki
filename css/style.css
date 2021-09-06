@@ -169,3 +169,29 @@ body {
 .img-bottom-info:hover a {
     color: white;
 }
+
+.figure-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #994d00;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.figure {
+    position: relative;
+    cursor: pointer;
+}
+
+.figure :hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.figure img {
+    border: 1px solid #994d00;
+    border-radius: 3px;
+}

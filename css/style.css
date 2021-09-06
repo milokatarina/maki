@@ -68,16 +68,13 @@ body {
 
 .main-footer {
     background-color: #994d00 !important;
-    color: white;
 }
 
 .main-footer .fab {
-    color: white !important;
     margin-left: 15px;
 }
 
 .footer-copyright {
-    background-color: white;
     color: #994d00;
 }
 
@@ -122,7 +119,6 @@ body {
     min-height: 50px;
     border-radius: 0 20px 20px 0;
     background: #994d00;
-    color: #fff;
 }
 
 
@@ -139,33 +135,9 @@ body {
 }
 
 
-.author-section {
-    background: linear-gradient(-45deg, #994d00, #ffcc99);
-    animation: gradient 15s ease infinite;
-    border-radius: 3px;
-}
-
-.author-section .description {
-    color: #fff;
-    padding: 25px;
-    border-radius: 3px;
-    background-size: 400% 400%;
-}
-
-.author-img {
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    right: 25%;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(../img/author_img.jpeg);
-}
-
 .img-bottom-info {
     font-size: 20px;
     padding: 15px;
-    background-color: white;
     width: 200px;
     height: 60px;
     margin: 0 auto;
@@ -194,7 +166,6 @@ body {
     bottom: 0;
     left: 0;
     padding: 15px;
-    background-color: white;
     width: 100%;
     border: 1px solid #994d00;
     border-bottom-left-radius: 3px;

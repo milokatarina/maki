@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Bootstrap title </title>
+    <title> Blog - Kitchen Roots </title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Kitchen roots blog vam predstavlja razlicite vrste hrane sa svih strana sveta i menja vas pogled na hranu."/>
+    <meta name="keywords" content="blog, zajednica, objave, članci, spremanje hrane"/>
+    <meta name="author" content="Marko Milosavljevic 10/20"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -13,11 +19,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
             crossorigin="anonymous"></script>
-    <meta charset="UTF-8"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta name="author" content="Marko Milosavljevic 10/20"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                         src="img/Black_logo_-_no_background_4_270x170.png"
                         alt="No Picture"
                         width="100"
-                >
+                />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,19 +38,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar-list-2">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="./">Početna<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./food.html">Recepti<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./recepti.html">Recepti<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Blog</a>
+                        <a class="nav-link active" href="./blog.html">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://teslasystem.rs/markomilosavljevic/">O nama</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="./saradnja.html">Saradnja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://teslasystem.rs/markomilosavljevic/">O nama</a>
                     </li>
                 </ul>
             </div>
@@ -62,10 +64,9 @@
         <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark"
              style="background-image: url('./img/heroblog.jpeg'); background-size:cover;">
             <div class="col-md-6 offset-md-6 px-0 bg-white text-dark p-2 p-sm-4">
-                <h1 class="display-4 font-italic d-none d-lg-block">Title of a longer featured blog post</h1>
-                <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
-                    efficiently about what's most interesting in this post's contents.</p>
-                <p class="lead mb-0"><a href="#" class="text-success">Continue reading...</a></p>
+                <h1 class="display-4 font-italic d-none d-lg-block">Početak jedne velike zajednice sa velikim postignućima</h1>
+                <p class="lead my-3">"Koristi hranu koja telu prija i aktivnost koja ga stimuliše." ~ Naš cilj je da vas sprovedemo kroz našu oazu hrane i usmerimo vas ka pravom putu. </p>
+                <p class="lead mb-0"><a href="#" class="text-success">Nastavite da čitate...</a></p>
             </div>
         </div>
         <div class="row mb-2">
@@ -74,7 +75,7 @@
                     <div class="card-body d-flex flex-column align-items-start">
                         <span class="d-inline-block mb-2 font-italic text-muted">Marko M.</span>
                         <h3 class="mb-0">
-                            <a class="text-dark" href="#">Post title</a>
+                            <a class="text-dark" href="#">Limunada sa malinama</a>
                         </h3>
                         <div class="mb-1 text-muted">Sep 06 &nbsp;
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -83,23 +84,23 @@
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                         </div>
-                        <p class="card-text text-dark mb-auto">This is a wider card with supporting text below as a
-                            natural
-                            lead-in to.</p>
-                        <a href="#" class="text-success">Continue reading...</a>
+                        <p class="card-text text-dark mb-auto">Zajedno sa sveže ubranim malinama
+                            i velikim bokalom hladne vode, pravi se spoj užitka i lepote.
+                        </p>
+                        <a href="#" class="text-success">Nastavite da čitate...</a>
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block"
                          alt="Thumbnail [200x250]"
                          src="img/sokovi.jpeg"
-                         style="width: 200px; height: 250px;">
+                         style="width: 200px; height: 250px;"/>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
                 <div class="card flex-md-row mb-4 box-shadow h-md-250">
                     <div class="card-body d-flex flex-column align-items-start">
-                        <span class="d-inline-block mb-2 font-italic text-muted">Katarina M.</span>
+                        <span class="d-inline-block mb-2 font-italic text-muted">Milica S.</span>
                         <h3 class="mb-0">
-                            <a class="text-dark" href="#">Post title</a>
+                            <a class="text-dark" href="#">Tortilja sa povrćem</a>
                         </h3>
                         <div class="mb-1 text-muted">Sep 06 &nbsp;
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -108,10 +109,10 @@
                             <i class="fa fa-star" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                         </div>
-                        <p class="card-text text-dark mb-auto">This is a wider card with supporting text below as a
-                            natural
-                            lead-in to.</p>
-                        <a href="#" class="text-success">Continue reading...</a>
+                        <p class="card-text text-dark mb-auto">Izdinstano povrće pomešano sa
+                            pohovanim belim mesom i pasuljem preko. Nema ništa bolje.
+                        </p>
+                        <a href="#" class="text-success">Nastavite da čitate...</a>
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block"
                          alt="Thumbnail [200x250]"
@@ -130,23 +131,14 @@
             <span>Zapratite nas na društvenim mrežama:</span>
         </div>
         <div>
-            <a href="">
+            <a href="https://www.facebook.com/profile/KitchenRoots">
                 <i class="text-white fab fa-facebook-f"></i>
             </a>
-            <a href="">
+            <a href="https://www.twitter.com/profile/KitchenRoots">
                 <i class="text-white fab fa-twitter"></i>
             </a>
-            <a href="">
-                <i class="text-white fab fa-google"></i>
-            </a>
-            <a href="">
+            <a href="https://www.instagram.com/profile/KitchenRoots">
                 <i class="text-white fab fa-instagram"></i>
-            </a>
-            <a href="">
-                <i class="text-white fab fa-linkedin"></i>
-            </a>
-            <a href="">
-                <i class="text-white fab fa-github"></i>
             </a>
         </div>
     </section>
@@ -155,65 +147,46 @@
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>Company name
+                        <i class="fas fa-gem me-3"></i> KITCHEN ROOTS
                     </h6>
                     <p>
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Products
-                    </h6>
-                    <p>
-                        <a href="#!" class="text-reset">Angular</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Laravel</a>
+                        Svi volimo hranu, volimo piće. Volimo da pričamo o hrani i piću. Da uživamo u    slobodno vreme sa prijateljima uz lep rucak ili veceru. Mi vam mozemo dati ideju za vase sledece jelo uz puno drugih iznenađenja i saveta.
                     </p>
                 </div>
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Useful links
+                        KORISNI LINKOVI
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Pricing</a>
+                        <a href="./recepti.html" class="text-reset">Recepti</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Settings</a>
+                        <a href="./blog.html" class="text-reset">Blog</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Orders</a>
+                        <a href="./saradnja.html" class="text-reset">Saradnja</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Help</a>
+                        <a href="https://teslasystem.rs/markomilosavljevic" class="text-reset">O autoru</a>
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Contact
+                        KONTAKT
                     </h6>
-                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                    <p><i class="fas fa-home me-3"></i> Bulevar kralja Aleksandra 74, Beograd</p>
                     <p>
                         <i class="fas fa-envelope me-3"></i>
-                        info@example.com
+                        kitchenroots@gmail.com
                     </p>
-                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    <p><i class="fas fa-phone me-3"></i> + 381 156 498 55</p>
                 </div>
             </div>
         </div>
     </section>
     <div class="text-center p-4 bg-white footer-copyright">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="#">Marko Milosavljević</a>
+        <a class="text-reset fw-bold" href="#">Marko Milosavljević 10/20</a>
     </div>
 </footer>
 </body>

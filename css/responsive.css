@@ -48,7 +48,7 @@
 
 }
 
-/*Medium devices (tablets, 768px and up)*/
+/*Medium uređaji (tableti, 768px pa na gore)*/
 @media (min-width: 768px) and (max-width: 991px) {
     .contact-map iframe {
         height: 500px;
@@ -79,7 +79,7 @@
     }
 }
 
-/*Large devices (desktops, 992px and up)*/
+/*Large uređaji (desktop, 992px pa na gore)*/
 @media (min-width: 992px) {
 
     .contact-map iframe {
